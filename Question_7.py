@@ -1,5 +1,6 @@
 list1 = [3, 4, 5, 1, 4, 6, 1, 7, 7]
 list2 = [5, 8, 2, 9, 9, 4, 6, 3]
-intersection = list(set(list1) & set(list2))
+intersection = list(set(list1) & set(list2)) #taking the intersection of the both lists using logical and
 intersection.sort()
 print(intersection)
+
