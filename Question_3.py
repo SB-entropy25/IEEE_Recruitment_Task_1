@@ -12,9 +12,10 @@ print("Minimum:", matrix.min())
 print("Mean:", matrix.mean())
 
 # Normalize elements to range 0-1
-norm_matrix = (matrix - matrix.min()) / (matrix.max() - matrix.min())
+norm_matrix = (matrix - matrix.min()) / (matrix.max() - matrix.min()) #Normalizes the matrix values to a range between 0 and 1
 print("Normalized Matrix:\n", norm_matrix)
 
 # Flatten and sort
 flat_sorted = np.sort(matrix.flatten())
 print("Flattened & Sorted:", flat_sorted)
+
