@@ -1,4 +1,4 @@
-#Cutoff List (Tuple Format)
+#Cutoff List (Tuple Format), tupples are immutable whereas dictonary and lists are mutable and LISTS can conatin tupples
 a=[
     ("Pilani", "CS", 327),
     ("Pilani", "Chemical", 247),
@@ -35,4 +35,5 @@ b={
     }
 }
 print(a)
+
 print(b)
