@@ -16,8 +16,9 @@ norm_matrix = (matrix - matrix.min()) / (matrix.max() - matrix.min())
 print("Normalized Matrix:\n", norm_matrix)
 
 # Flatten and sort
-flat_sorted = np.sort(matrix.flatten())  #print original matrix
+flat_sorted = np.sort(matrix.flatten())  #flatten original matrix
 print("Flattened & Sorted(original matrix):", flat_sorted)
 
 flat_sorted2 = np.sort(norm_matrix.flatten()) #flatten normalised matrix
 print("Flattened & Sorted(Normalised matrix):", flat_sorted2)
+
